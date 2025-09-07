@@ -1,6 +1,16 @@
 import React from "react";
+import resumePDF from "../assets/Devendra_Mali_Resume.pdf";
 
 const About = () => {
+  const handleDownloadResume = () => {
+    const link = document.createElement('a');
+    link.href = resumePDF;
+    link.download = 'Devendra_Mali_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   const skills = [
     { name: "Frontend Development", level: 80 },
     { name: "Backend Development", level: 70 },
@@ -120,7 +130,10 @@ const About = () => {
 
             {/* Download Resume Button */}
             <div className="pt-4">
-              <button className="inline-flex items-center px-6 py-3 border border-gray-300 text-gray-700 font-medium rounded-lg hover:bg-gray-100 hover:border-gray-400 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-offset-2">
+              <button 
+                onClick={handleDownloadResume}
+                className="inline-flex items-center px-6 py-3 border border-gray-300 text-gray-700 font-medium rounded-lg hover:bg-gray-100 hover:border-gray-400 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-gray-300 focus:ring-offset-2"
+              >
                 <svg
                   className="w-5 h-5 mr-2"
                   fill="none"

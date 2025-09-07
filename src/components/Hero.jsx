@@ -94,6 +94,13 @@ const Hero = () => {
               <span className="w-2 h-2 bg-gray-400 rounded-full"></span>
               <span className="text-sm md:text-base font-medium">Node.js</span>
             </div>
+            
+            <div className="flex items-center space-x-2">
+              <span className="w-2 h-2 bg-gray-400 rounded-full"></span>
+              <span className="text-sm md:text-base font-medium">
+                Next.js
+              </span>
+            </div>
 
             <div className="flex items-center space-x-2">
               <span className="w-2 h-2 bg-gray-400 rounded-full"></span>

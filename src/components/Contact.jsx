@@ -69,8 +69,8 @@ const Contact = () => {
         </svg>
       ),
       title: "Email",
-      detail: "devendra.mali@example.com",
-      link: "mailto:devendra.mali@example.com",
+      detail: "dev.endra.mali.5804@gmail.com",
+      link: "mailto:dev.endra.mali.5804@gmail.com",
     },
     {
       icon: (
@@ -89,8 +89,8 @@ const Contact = () => {
         </svg>
       ),
       title: "Phone",
-      detail: "+91 98765 43210",
-      link: "tel:+919876543210",
+      detail: "+91 88569 72156",
+      link: "tel:+918856972156",
     },
     {
       icon: (
@@ -115,7 +115,7 @@ const Contact = () => {
         </svg>
       ),
       title: "Location",
-      detail: "Mumbai, Maharashtra, India",
+      detail: "Pune, Maharashtra, India",
       link: null,
     },
     {
@@ -129,15 +129,15 @@ const Contact = () => {
         </svg>
       ),
       title: "GitHub",
-      detail: "github.com/devendramali",
-      link: "https://github.com/devendramali",
+      detail: "github.com/Dev-5804",
+      link: "https://github.com/Dev-5804",
     },
   ];
 
   const socialLinks = [
     {
       name: "LinkedIn",
-      url: "https://linkedin.com/in/devendramali",
+      url: "https://www.linkedin.com/in/dev-endra-mali/",
       icon: (
         <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
           <path
@@ -150,7 +150,7 @@ const Contact = () => {
     },
     {
       name: "Fiverr",
-      url: "https://fiverr.com/devendramali",
+      url: "https://www.fiverr.com/sellers/devendra_mali_",
       icon: (
         <svg
           className="w-6 h-6"
@@ -165,7 +165,7 @@ const Contact = () => {
     },
     {
       name: "GitHub",
-      url: "https://github.com/devendramali",
+      url: "https://github.com/Dev-5804",
       icon: (
         <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
           <path

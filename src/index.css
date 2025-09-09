@@ -1,1 +1,23 @@
 @import 'tailwindcss';
+
+/* Ensure proper scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Force scroll position reset */
+html, body {
+  overflow-x: hidden;
+}
+
+/* Prevent initial scroll jump */
+body {
+  position: relative;
+}
+
+/* Reset any automatic scroll restoration */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}

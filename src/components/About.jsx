@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import resumePDF from "../assets/Devendra_Mali_Resume.pdf";
+import resumePDF from "/Devendra_Mali_Resume.pdf";
 
 const About = () => {
   const handleDownloadResume = () => {

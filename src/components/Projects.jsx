@@ -150,7 +150,7 @@ const Projects = () => {
       description:
         "A full-stack platform for skill exchange and collaboration among users.",
       detailedDescription: "Skill Swap is a comprehensive platform that connects individuals looking to exchange skills and knowledge. Built with modern web technologies, it features user authentication, skill matching algorithms, real-time messaging, and a rating system. Users can create profiles showcasing their skills, search for specific skills they want to learn, and connect with others for mutual learning experiences.",
-      image: "src/assets/Images/SkillSwap.webp",
+      image: "/Images/SkillSwap.webp",
       technologies: ["Vite", "Python", "MongoDB", "TailwindCSS"],
       category: "Full Stack",
       liveUrl: "https://github.com/Dev-5804/SkillSwap",
@@ -174,7 +174,7 @@ const Projects = () => {
       description:
         "A collaborative e-commerce platform for buying and selling shoes online.",
       detailedDescription: "Pace is a modern e-commerce platform specifically designed for shoe enthusiasts. The platform features a clean, responsive design with advanced filtering options, product search, shopping cart functionality, and seamless user experience. Built with React and styled with Tailwind CSS for optimal performance and aesthetics.",
-      image: "src/assets/Images/Pace.webp",
+      image: "/Images/pace.webp",
       technologies: ["Vite", "React", "Tailwind CSS"],
       category: "Frontend",
       liveUrl: "https://pace-sand.vercel.app/",
@@ -198,7 +198,7 @@ const Projects = () => {
       description:
         "A responsive weather application that provides current weather conditions, forecasts, and location-based weather data using OpenWeather API.",
       detailedDescription: "Weather Dashboard is a comprehensive weather application that provides real-time weather information with an intuitive interface. The app features current weather conditions, 5-day forecasts, location-based weather data, and beautiful weather animations. Built with vanilla JavaScript to demonstrate core programming skills.",
-      image: "src/assets/Images/WeatherDashboard.webp",
+      image: "/Images/WeatherDashboard.webp",
       technologies: ["HTML5", "CSS3", "JavaScript", "OpenWeather API"],
       category: "Frontend",
       liveUrl: "https://github.com/Dev-5804/vibe-coded-weather-app",
@@ -222,7 +222,7 @@ const Projects = () => {
       description:
         "A modern, responsive portfolio website showcasing projects and skills with smooth animations and optimized performance.",
       detailedDescription: "This portfolio website represents my personal brand and showcases my web development journey. Built with React and enhanced with Framer Motion for smooth animations, it features a modern design, optimized performance, and responsive layout. The site includes sections for projects, skills, experience, and contact information.",
-      image: "src/assets/Images/Portfolio.webp",
+      image: "/Images/portfolio.webp",
       technologies: ["Vite", "React", "Tailwind CSS", "Framer Motion"],
       category: "Frontend",
       liveUrl: "/",
@@ -246,7 +246,7 @@ const Projects = () => {
       description:
         "A platform for users to share and discover new recipes, with features like user authentication, recipe ratings, and comments.",
       detailedDescription: "Recipe Sharing Platform is a full-stack web application that brings food enthusiasts together. Users can create accounts, share their favorite recipes, discover new dishes, rate recipes, and engage with the community through comments. The platform features advanced search functionality, recipe categorization, and a user-friendly interface for recipe creation and management.",
-      image: "src/assets/Images/RecipeShare.webp",
+      image: "/Images/RecipeShare.webp",
       technologies: ["Next.js", "Node.js", "Express", "MongoDB", "TailwindCSS"],
       category: "Full Stack",
       liveUrl: "https://github.com/Dev-5804/Recipe-Sharing-Platform",

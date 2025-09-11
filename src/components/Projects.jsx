@@ -386,7 +386,7 @@ const Projects = () => {
                 <div className="relative overflow-hidden h-48">
                   <div className="w-full h-full bg-gradient-to-br from-gray-200 to-gray-300 flex items-center justify-center">
                     <div className="text-gray-500 text-center">
-                      <img src={project.image} alt={project.title} />
+                      <img src={project.image} alt={project.title} loading="lazy" />
                     </div>
                   </div>
                   {project.featured && (
@@ -524,6 +524,7 @@ const Projects = () => {
                       src={selectedProject.image} 
                       alt={selectedProject.title}
                       className="w-full h-full object-cover"
+                      loading="lazy"
                     />
                   </div>
                   <button
